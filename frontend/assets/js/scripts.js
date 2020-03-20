@@ -227,9 +227,9 @@ jQuery(function ($) {
     })
 
     // 10. our clients logo carousel
-    $(document).ready(function(){
-        $(".player").YTPlayer();
-    });
+    // $(document).ready(function(){
+    //     $(".player").YTPlayer();
+    // });
 
 
     // 11. wow js
