@@ -5,7 +5,7 @@
     "runtime~main.js": "/static/js/runtime~main.b2cfdd2c.js",
     "static/js/2.ab349d87.chunk.js": "/static/js/2.ab349d87.chunk.js",
     "index.html": "/index.html",
-    "precache-manifest.3a22874b3ee4db68728fdeefd522f41a.js": "/precache-manifest.3a22874b3ee4db68728fdeefd522f41a.js",
+    "precache-manifest.js?b0f420d7fdfb7c3e4e85ae482b544a8c": "/precache-manifest.js?b0f420d7fdfb7c3e4e85ae482b544a8c",
     "service-worker.js": "/service-worker.js"
   }
 }
