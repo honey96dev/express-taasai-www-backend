@@ -218,7 +218,7 @@ strong, b {
 }
 
 .white-bg {
-  background: #ffffff;
+  background: #ffffff !important;
 }
 
 .bg-color-1 {
@@ -547,9 +547,20 @@ select.form-control.has-value {
   transition: padding 0.2s ease-out;
 }
 
+.white-bg, .custom-nav {
+  background: #ffffff !important;
+  border-bottom: 1px solid #ebebeb !important;
+}
+
 .white-bg.affix, .custom-nav.affix {
   background: #ffffff;
   border-bottom: 1px solid #ebebeb;
+}
+
+.white-bg ul li a {
+  font-size: 16px;
+  font-weight: 500;
+  font-family: Poppins, sans-serif;
 }
 
 .white-bg.affix ul li a {
