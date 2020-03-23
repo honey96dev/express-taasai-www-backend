@@ -15,7 +15,7 @@ const _listItems = async (req, res, next) => {
   const lang = req.get(consts.lang) || consts.defaultLanguage;
   const langs = strings[lang];
 
-  let sql = sprintf("SELECT * FROM %s WHERE is_enabled = $1 AND deleted_at IS NULL ORDER BY created_at DESC;", dbTblName.footers);
+  let sql = sprintf("SELECT * FROM %s F WHERE is_enabled = $1 AND deleted_at IS NULL ORDER BY position ASC, created_at DESC;", dbTblName.footers);
   try {
     let result = await db.query(sql, [true]);
     const {rows} = result;
