@@ -39,11 +39,7 @@ const session = {
 };
 const dbTblName = {
   users: "fleets",
-  operators: "operators",
-  drivers: "drivers",
-  vehicleTypes: "vehicle_types",
-  rides: "rides",
-  fareDivisions: "fare_divisions",
+  footers: "footers",
 
   resetPasswordTokens: "reset_password_tokens",
 };
